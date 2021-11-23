@@ -4,6 +4,8 @@ autorzy patcha:
 Mikołaj Jakubowski
 Kamil Głowienke
 
+patch jest do repo: https://github.com/AdSten/Space-Challenge
+
 
 
 diff --git a/Mars Mission/src/Rocket.java b/Mars Mission/src/Rocket.java
