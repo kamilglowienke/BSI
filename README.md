@@ -1,8 +1,11 @@
 # BSI
 
-autorzy patcha:
-Mikołaj Jakubowski
-Kamil Głowienke
+**Autorzy patcha:**
+
+**Mikołaj Jakubowski**,
+**Kamil Głowienke**
+<br /><br /><br />
+
 
 **Patch jest do repo: https://github.com/AdSten/Space-Challenge**
 
