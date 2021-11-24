@@ -6,16 +6,6 @@ Kamil Głowienke
 
 patch jest do repo: https://github.com/AdSten/Space-Challenge
 
-
-
-diff --git a/Mars Mission/src/Rocket.java b/Mars Mission/src/Rocket.java
-index 3ebb2ae..55e69bc 100644
---- a/Mars Mission/src/Rocket.java	
-+++ b/Mars Mission/src/Rocket.java	
-@@ -1,7 +1,8 @@
-
-
-
 Błąd OBJ01 - wrażliwe zmienne powinny być prywatne
 Błąd OBJ07 - nie powinno się móc kopiować wrażliwych klas
 
@@ -28,11 +18,11 @@ Błąd OBJ07 - nie powinno się móc kopiować wrażliwych klas
 +    private int cost;
 +    private int weight;
 +    private int maxWeight;
-+
- 
+
      public boolean launch() {
          return true;
-@@ -22,4 +23,29 @@ public class Rocket implements SpaceShip{
+        
+public class Rocket implements SpaceShip{
      public void carry(Item item) {
          weight += item.weight;
      }
@@ -62,15 +52,7 @@ Błąd OBJ07 - nie powinno się móc kopiować wrażliwych klas
 +        this.maxWeight = maxWeight;
 +    }
  }
-diff --git a/Mars Mission/src/Simulation.java b/Mars Mission/src/Simulation.java
-index 22c9ebd..2c77512 100644
---- a/Mars Mission/src/Simulation.java	
-+++ b/Mars Mission/src/Simulation.java	
-@@ -1,13 +1,22 @@
-+import java.io.FileNotFoundException;
- import java.util.ArrayList;
- import java.util.Scanner;
- import java.io.File;
+ 
  
 Błąd ERR00 - nie ignorować wyjątków typu checked
 
