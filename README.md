@@ -4,13 +4,14 @@ autorzy patcha:
 Mikołaj Jakubowski
 Kamil Głowienke
 
-**Patch jest do repo: https://github.com/AdSten/Space-Challenge
+**Patch jest do repo: https://github.com/AdSten/Space-Challenge**
 
-**Poprawki w klasie Rocket:
+**Poprawki w klasie Rocket:**
 
-Błąd OBJ01 - wrażliwe zmienne powinny być prywatne
-Błąd OBJ07 - nie powinno się móc kopiować wrażliwych klas
+*Błąd OBJ01 - wrażliwe zmienne powinny być prywatne*
 
-**Poprawki w klasie Simulation: 
+*Błąd OBJ07 - nie powinno się móc kopiować wrażliwych klas*
 
-Błąd ERR00 - nie ignorować wyjątków typu checked
+**Poprawki w klasie Simulation:** 
+
+*Błąd ERR00 - nie ignorować wyjątków typu checked*
